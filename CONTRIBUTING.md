@@ -44,15 +44,15 @@ Following [the official Giter8 instructions on how to test templates locally](ht
 3. Create a project based on the local template:
    - You can do so by experiencing the project creation wizard end-users will see (recommended at least once just before submitting your PR):
      ```shell
-     g8 file://scala-basic-skeleton.g8/
+     g8 file://scala-spark-skeleton.g8/
      ```
    - You can also create a project in a non-interactive way by just accepting the default parameters and overriding the destination folder if it already exists:
      ```shell
-     g8 file://scala-basic-skeleton.g8/ --force
+     g8 file://scala-spark-skeleton.g8/ --force
      ```
    - Or even specifying just the desired properties between [the available ones](src/main/g8/default.properties):
      ```shell
-     g8 file://scala-basic-skeleton.g8/ --name=codely_template_test --force
+     g8 file://scala-spark-skeleton.g8/ --name=codely_template_test --force
      ```
 4. Move to the generated project:
    ```shell

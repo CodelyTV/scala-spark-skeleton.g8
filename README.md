@@ -9,22 +9,22 @@
 </p>
 
 <h1 align="center">
-  🧬⚡ Codely Scala Basic Skeleton (powered by Giter 8)
+  🧬🌟 Codely Scala Spark Skeleton (powered by Giter 8)
 </h1>
 
 <p align="center">
     <a href="https://github.com/CodelyTV"><img src="https://img.shields.io/badge/Codely-OS-green.svg?style=flat-square" alt="Codely Open Source"/></a>
     <a href="https://pro.codely.com"><img src="https://img.shields.io/badge/Codely-Pro-black.svg?style=flat-square" alt="Codely Pro Courses"/></a>
-    <a href="/LICENSE"><img src="https://img.shields.io/github/license/CodelyTV/scala-basic-skeleton.g8?style=flat-square" alt="License"/></a>
-    <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CodelyTV/scala-basic-skeleton.g8?style=flat-square"></a>
-    <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/CodelyTV/scala-basic-skeleton.g8/ci.yml?style=flat-square" alt="Continuous Integration status" /></a>
+    <a href="/LICENSE"><img src="https://img.shields.io/github/license/CodelyTV/scala-spark-skeleton.g8?style=flat-square" alt="License"/></a>
+    <a href="https://github.com/CodelyTV/scala-spark-skeleton.g8/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CodelyTV/scala-spark-skeleton.g8?style=flat-square"></a>
+    <a href="https://github.com/CodelyTV/scala-spark-skeleton.g8/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/CodelyTV/scala-spark-skeleton.g8/ci.yml?style=flat-square" alt="Continuous Integration status" /></a>
 </p>
 
 <p align="center">
   Template for bootstrapping your new Scala project following idiomatic best practices powered by Giter 8.
   <br />
   <br />
-  <a href="#-related-resources">💡 Related resources</a> | <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/stargazers">🌟 Repository Stargazers</a>
+  <a href="#-related-resources">💡 Related resources</a> | <a href="https://github.com/CodelyTV/scala-spark-skeleton.g8/stargazers">🌟 Repository Stargazers</a>
 </p>
  
 ## 🚀 How to use
@@ -32,7 +32,7 @@
 Run the following command and you're ready to go:
 
 ```shell
-sbt new codelytv/scala-basic-skeleton.g8
+sbt new codelytv/scala-spark-skeleton.g8
 ```
 
 You can now move to your project's directory, enter the SBT shell with the `sbt` command, and run the tests with `test` or `t`.
@@ -75,7 +75,7 @@ If you use macOS, we would recommend using SDKMAN! to manage different JDK versi
 ## 💎 Features
 
 - Permissive [`LICENSE`](LICENSE): Allow using projects created with this template for commercial and private purposes.
-- [Continuous Integration for the template](https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml): Use GitHub Actions to validate every commit merging to `main` to guarantee correctness.
+- [Continuous Integration for the template](https://github.com/CodelyTV/scala-spark-skeleton.g8/actions/workflows/ci.yml): Use GitHub Actions to validate every commit merging to `main` to guarantee correctness.
 - Complete [`README.md`](README.md) example: Include badges for CI status and other fancy stuff.
 - Latest versions of Scala, SBT and ScalaTest. Always: They are dynamically suggested based on the latest stable version available while creating your project.
 - Minimum dependencies: Just the most common for starting up, and you can delete them in your `build.sbt` once the project has been created:
@@ -115,6 +115,7 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 
 #### 🧬 Scala repositories
 
+- [🌱⚡ Codely Scala Basic Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-basic-skeleton.g8)
 - [🌱 Scala Basic Skeleton (without Giter8)](https://github.com/CodelyTV/scala-basic-skeleton)
 - [🎯 Scala DDD Example](https://github.com/CodelyTV/scala-ddd-example)
 
@@ -163,12 +164,12 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## 🤔 About
 
-This hopefully helpful resource has been developed by [Codely](https://github.com/CodelyTV) and [contributors](https://github.com/CodelyTV/scala-basic-skeleton.g8/graphs/contributors).
+This hopefully helpful resource has been developed by [Codely](https://github.com/CodelyTV) and [contributors](https://github.com/CodelyTV/scala-spark-skeleton.g8/graphs/contributors).
 
 If you appreciate this contribution and want to show some support to our Open Source contributions, you have several options:
 
 - Without leaving GitHub:
-  - Give a star to this repository and be listed as a [stargazer](https://github.com/CodelyTV/scala-basic-skeleton.g8/stargazers)
+  - Give a star to this repository and be listed as a [stargazer](https://github.com/CodelyTV/scala-spark-skeleton.g8/stargazers)
   - Follow [CodelyTV on GitHub](https://github.com/CodelyTV)
 - Follow us on other social networks:
   - [YouTube](https://youtube.com/codelytv)

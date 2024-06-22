@@ -63,4 +63,4 @@ See [`LICENSE`](LICENSE).
 
 ## 🤔 About
 
-Project developed by [$organization_name$]($organization_homepage$) and bootstrapped with the [Codely Scala Basic Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-basic-skeleton.g8).
+Project developed by [$organization_name$]($organization_homepage$) and bootstrapped with the [Codely Scala Spark Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-spark-skeleton.g8).

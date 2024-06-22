@@ -5,8 +5,8 @@ import sbt.io.syntax._
 
 object Settings {
   val settings = Seq(
-    name                 := "Codely Scala Basic Skeleton",
-    version              := "1.7.0",
+    name                 := "Codely Scala Spark Skeleton",
+    version              := "1.0.0",
     organization         := "com.codely",
     organizationName     := "Codely Enseña y Entretiene SL",
     organizationHomepage := Some(url("https://codely.com")),
