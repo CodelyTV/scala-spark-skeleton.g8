@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '21'
+          java-version: '11'
           cache: 'sbt'
       - name: 👌 Run "pre-push" tasks (compile and style-check)
         run: sbt prep
