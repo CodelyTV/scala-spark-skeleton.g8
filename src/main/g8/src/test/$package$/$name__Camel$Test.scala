@@ -1,6 +1,5 @@
 package $package$
 
-import $package$.$name;format="Camel"$
 import org.apache.spark.sql.Row
 
 final class $name;format="Camel"$Test extends SparkTestHelper {

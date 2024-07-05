@@ -31,7 +31,6 @@ trait SparkTestHelper
 
   protected def sc: SparkContext = sparkSession.sparkContext
 
-
   protected def sparkConfiguration: SparkConf =
     new SparkConf()
     /* Uncomment this if you want to use Delta Lake
@@ -79,5 +78,4 @@ trait SparkTestHelper
     val metastoreDbPath = new File("metastore_db").getAbsolutePath
     FileUtils.deleteDirectory(new File(metastoreDbPath))
   }
-
 }
