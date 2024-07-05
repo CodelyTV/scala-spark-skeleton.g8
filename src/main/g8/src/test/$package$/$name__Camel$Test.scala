@@ -1,9 +1,8 @@
 package $package$
 
-import org.scalatest.wordspec.AnyWordSpec
-import org.scalatest.matchers.should._
+import org.apache.spark.sql.Row
 
-final class $name;format="Camel"$Test extends AnyWordSpec with Matchers {
+final class $name;format="Camel"$Test extends SparkTestHelper {
   "$name;format="Camel"$" should {
     "greet" in {
       val $name;format="camel"$ = new $name;format="Camel"$
@@ -11,7 +10,8 @@ final class $name;format="Camel"$Test extends AnyWordSpec with Matchers {
       val nameToGreet = "Codely"
       val greeting    = $name;format="camel"$.greet(nameToGreet)
 
-      greeting shouldBe "Hello " + nameToGreet
+      import testSQLImplicits._
+      Seq(greeting).toDF("greeting").collect() shouldBe Array(Row("Hello Codely"))
     }
   }
 }
