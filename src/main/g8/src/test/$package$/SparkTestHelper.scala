@@ -11,18 +11,14 @@ import java.io.File
 import java.nio.file.Files
 import scala.reflect.io.Directory
 
-trait SparkTestHelper
-  extends AnyWordSpec
-    with BeforeAndAfterEach
-    with BeforeAndAfterAll
-    with Matchers {
+trait SparkTestHelper extends AnyWordSpec with BeforeAndAfterEach with BeforeAndAfterAll with Matchers {
 
   private val sparkSession = SparkSession
     .builder()
     .master("local[*]")
     .appName("test-spark-session")
     .config(sparkConfiguration)
-    //.enableHiveSupport() uncomment this if you want to use Hive
+    // .enableHiveSupport() uncomment this if you want to use Hive
     .getOrCreate()
 
   protected var tempDir: String = _
@@ -33,14 +29,14 @@ trait SparkTestHelper
 
   protected def sparkConfiguration: SparkConf =
     new SparkConf()
-    /* Uncomment this if you want to use Delta Lake
+  /* Uncomment this if you want to use Delta Lake
 
       .set("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
       .set(
         "spark.sql.catalog.spark_catalog",
         "org.apache.spark.sql.delta.catalog.DeltaCatalog"
       )
-    */
+   */
 
   override protected def beforeAll(): Unit = {
     super.beforeAll()
