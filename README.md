@@ -83,6 +83,10 @@ If you use macOS, we would recommend using SDKMAN! to manage different JDK versi
   - [ScalaMock](https://scalamock.org): Test doubles generator.
   - [nscala-time](https://github.com/nscala-time/nscala-time): Commonly used library wrapping Joda Time offering a Scala-friendly API like: `2.hours + 45.minutes`.
   - [pprint](https://github.com/com-lihaoyi/PPrint): Much better than `System.out.println(x.toString)`.
+- [sbt-assembly](): Included to simplify packaging your project into a "fat JAR" with all dependencies. Ideal for running on Spark clusters or standalone environments:
+  - Generates an uber JAR using sbt assembly.
+  - Configured to exclude Spark dependencies marked as provided, keeping the final JAR lightweight.
+  - Supports cluster and local deployment workflows.
 - Other ecosystem tools already configured to follow idiomatic best practices:
   - [Scalafmt](https://scalameta.org/scalafmt) Code formatter: [Already configured](src/main/g8/.scalafmt.conf) following idiomatic best practices.
   - [EditorConfig](https://editorconfig.org): [Ready to follow Scala conventions](src/main/g8/.editorconfig).
