@@ -45,6 +45,20 @@ sbt test
 
 There is also the `sbt t` alias 😊
 
+## 📦 Building the JAR
+This project uses `sbt-assembly` to create a "fat JAR" (also known as an uber JAR) that bundles all the dependencies 
+required to run your Spark application. This allows you to easily deploy and run the application on any Spark cluster.
+
+### Build the JAR
+To build the JAR, run:
+
+```shell
+sbt assembly
+```
+
+The generated JAR file will be available in the `target/scala-<version>` directory and will include all your project 
+dependencies.
+
 ## 🤽‍ Pre-push Git hook
 
 There's one Git hook included. It's inside the `doc/hooks` folder, and it will run the `prep` SBT task before pushing to any remote.
